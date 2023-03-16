@@ -1,9 +1,6 @@
 #include<stdio.h>
-
-/*
- * main - Entry point
- *
- * puts - ouput characters of string with a newline 
+/**
+ * main - a program that print line with puts function
  *
  * Return: Always 0(Success)
  */
