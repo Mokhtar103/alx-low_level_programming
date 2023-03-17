@@ -8,8 +8,8 @@ int main(void)
 {
 	char ch;
 
-	for (ch = 47; ch < 103; ch++) {
-		
+	for (ch = 47; ch < 103; ch++)
+	{
 		if (ch >= 48 && ch <= 57)
 		{
 			putchar(ch);
