@@ -38,10 +38,9 @@ void print_to_98(int n)
 			{
 				printf("%d, ", j);
 			}
-			
 		}
 		putchar('\n');
-	} 
+	}
 	else
 	{
 		printf("%d", 98);
