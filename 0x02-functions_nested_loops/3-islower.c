@@ -1,8 +1,8 @@
 #include "main.h"
 /**
 * _islower - checks for lowercase character
-* Return: int
-* c : character that the function will convert to asci num
+* @c: the character to be checked
+* Return: 1 for lower case and 0 for anything else
 */
 int _islower(int c)
 {
