@@ -1,7 +1,8 @@
 #include "main.h"
 
-/** 
+/**
  * main - a program that print putchar word
+ *
  * Return: Always 0
  */
 int main(void)
