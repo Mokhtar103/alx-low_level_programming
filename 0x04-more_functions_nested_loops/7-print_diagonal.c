@@ -22,14 +22,14 @@ for (j = 1; j <= n; j++)
 {
 if (i == j)
 {
-putchar(92);
+_putchar(92);
 }
 else
 {
-putchar(' ');
+_putchar(' ');
 }
 }
-putchar('\n');
+_putchar('\n');
 }
 }
 }
