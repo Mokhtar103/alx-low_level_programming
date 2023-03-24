@@ -18,17 +18,11 @@ else
 {
 for (i = 1; i <= n; i++)
 {
-for (j = 1; j <= n; j++)
+for (j = 1; j <= i; j++)
 {
-if (i == j)
-{
+_putchar(32);
+}
 _putchar(92);
-}
-else
-{
-_putchar(' ');
-}
-}
 _putchar('\n');
 }
 }
