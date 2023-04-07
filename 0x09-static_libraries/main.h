@@ -1,7 +1,11 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+<<<<<<< HEAD
 int _putchar(char c)i;
+=======
+int _putchar(char c);
+>>>>>>> 53b412a1e7ff648ec8174195daf9332189bb2117
 int _islower(int c);
 int _isalpha(int c);
 int _abs(int n);
