@@ -8,7 +8,7 @@
  * @argv: array that conatin the arguments
  * Return: integer
  */
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 int i, result = 0;
 unsigned int j;
