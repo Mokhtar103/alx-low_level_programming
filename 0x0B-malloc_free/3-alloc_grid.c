@@ -1,4 +1,14 @@
-nt **alloc_grid(int width, int height)
+#include <stdio.h>
+#include "main.h"
+#include <stdlib.h>
+
+/**
+ * alloc_grid -  return a pointer to 2 dimensional array
+ * @width: rows
+ * @height: columns
+ * Return: pointer to new allocated space
+ */
+int **alloc_grid(int width, int height)
 
 {
 
