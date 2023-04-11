@@ -36,7 +36,7 @@ s1 = "\0";
 }
 if (s2 == NULL)
 {
-s2 = '\0';
+s2 = "\0";
 }
 sizeOfs1 = str_len(s1);
 sizeOfs2 = str_len(s2);
