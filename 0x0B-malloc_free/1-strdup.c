@@ -13,7 +13,7 @@ char *c;
 
 if (str == NULL)
 {
-    return (NULL);
+return (NULL);
 }
 while (str[len] != '\0')
 {
