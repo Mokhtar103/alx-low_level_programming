@@ -15,7 +15,7 @@ unsigned int i;
 s = malloc(size);
 if (size == 0 || s == 0)
 {
-return NULL;
+return (NULL);
 }
 for (i = 0; i < size; i++)
 {
