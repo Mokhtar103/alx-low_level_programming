@@ -12,7 +12,7 @@ int *c = malloc(b);
 
 if (c == 0)
 {
-return (98);
+exit(98);
 }
 return (c);
 }
