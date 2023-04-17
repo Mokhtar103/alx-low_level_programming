@@ -19,7 +19,7 @@ return (length);
  * _strcpy - copy a string
  * @dest: destantion of a copied string
  * @src: string to be copied
- * Return: char 
+ * Return: char
  */
 char *_strcpy(char *dest, char *src)
 {
