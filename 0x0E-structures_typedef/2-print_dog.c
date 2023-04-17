@@ -5,16 +5,26 @@
  * @d: structure
  * Return: empty
  */
-void print_dog(struct dog *d)
+void print_dog(struct dog* d)
 {
-if (d->name == NULL || d->owner == NULL || d->age == 0)
-{
-printf("(nil)");
-}
 if (d != NULL)
 {
+if (d->name)
+{
 printf("Name: %s\n", d->name);
+}
+else
+{
+printf("(nill)\n");
+}
 printf("Age: %f\n", d->age);
+if (d->owner)
+{
 printf("Owner: %s\n", d->owner);
-}	
+}
+else
+{
+printf("(nill)\n");
+}
+}
 }
