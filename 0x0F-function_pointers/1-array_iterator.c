@@ -10,7 +10,7 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 {
 int *last = &array - size - 1;
 
-if (size != NULL && array != NULL && action != NULL)
+if (size && array && action)
 {
 while (array <= last)
 {
