@@ -24,5 +24,6 @@ for (i = n; i != 0; i--)
 {
 printf("%d%s", va_arg(ap, int), i ? (separator ? separator : "") : "\n");
 }
+printf("\n");
 va_end(ap);
 }
