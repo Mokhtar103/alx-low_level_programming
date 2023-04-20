@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "function_pointers.h"
 /**
  * int_index - searches for an integer
@@ -16,7 +15,7 @@ if (array && size && cmp)
 i = 0;
 while (i < size)
 {
-if (cmp(array[i]) != NULL)
+if (cmp(array[i]) != 0)
 {
 return (i);
 }
