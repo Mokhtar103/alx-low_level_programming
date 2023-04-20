@@ -1,3 +1,14 @@
+#include <stdio.h>
+#include "variadic_functions.h"
+#include <stdarg.h>
+
+/**
+ * print_numbers -  print numbers
+ * @separator: separator between numbers
+ * @n: number of arguments
+ * @...: numbers to be passed
+ * Return: empty
+ */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 va_list ap;
