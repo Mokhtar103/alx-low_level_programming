@@ -8,18 +8,18 @@
  */
 int _strlen(char *str)
 {
-    int i;
+int i;
 
-    i = 0;
-    if(str == NULL)
-    {
-        return (0);
-    }
-    while(*str++)
-    {
-        i++;
-    }
-    return (i);
+i = 0;
+if (str == NULL)
+{
+return (0);
+}
+while (*str++)
+{
+i++;
+}
+return (i);
 }
 
 /**
@@ -30,21 +30,21 @@ int _strlen(char *str)
  */
 size_t print_list(const list_t *h)
 {
-    size_t i = 0;
+int i = 0;
 
-    while(h != NULL)
-    {
-        printf("[%d] ", _strlen(h->str));
-        if(h->str == NULL)
-        {
-            printf("(nill)\n");
-        }
-        else
-        {
-            printf("%s\n", h->str);
-        }
-        h = h->next;
-        i++;
-    }
-    return (i);
+while (h != NULL)
+{
+printf("[%d] ", _strlen(h->str));
+if (h->str == NULL)
+{
+printf("(nill)\n");
+}
+else
+{
+printf("%s\n", h->str);
+}
+h = h->next;
+i++;
+}
+return (i);
 }
