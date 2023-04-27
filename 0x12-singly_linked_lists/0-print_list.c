@@ -30,21 +30,13 @@ return (i);
  */
 size_t print_list(const list_t *h)
 {
-int i = 0;
+size_t n = 0;
 
 while (h != NULL)
 {
-printf("[%d] ", _strlen(h->str));
-if (h->str == NULL)
-{
-printf("(nill)\n");
-}
-else
-{
-printf("%s\n", h->str);
-}
+printf("[%d] %s\n", _strlen(h->str), h->str ? h->str : "(nill)");
 h = h->next;
-i++;
+n++;
 }
-return (i);
+return (n);
 }
