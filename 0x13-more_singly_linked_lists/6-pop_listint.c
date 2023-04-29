@@ -12,7 +12,7 @@ int data;
 
 if (*head == NULL)
 {
-return (NULL);
+return (0);
 }
 else
 {
