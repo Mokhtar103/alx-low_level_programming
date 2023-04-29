@@ -13,7 +13,7 @@ unsigned int i;
 
 if (head_copy == NULL)
 {
-return (NULL);
+return (-1);
 }
 if (index == 0)
 {
