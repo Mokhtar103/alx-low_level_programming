@@ -7,25 +7,10 @@
  */
 void print_binary(unsigned long int n)
 {
-int i, printed = 0;
-unsigned long int num;
+if (n > 1)
+{
+print_binary(n >> 1);
+}
 
-for (i = 63; i >= 0; i--)
-{
-num = n >> i;
-
-if (num & 1)
-{
-_putchar('1');
-printed++;
-}
-else if (printed)
-{
-_putchar('0');
-}
-if (printed == 0)
-{
-_putchar('0');
-}
-}
+_putchar('0' + (n & 1));
 }
