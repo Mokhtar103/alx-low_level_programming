@@ -19,7 +19,7 @@ if (num & 1)
 _putchar('1');
 printed++;
 }
-else if (printed > 0)
+else if (printed)
 {
 _putchar('0');
 }
