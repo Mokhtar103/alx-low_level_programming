@@ -1,7 +1,5 @@
 #include "main.h"
 
-unsigned int _pow(int base, int pow);
-
 /**
  * set_bit - set value of bit to 1
  * @n: pointer to num
