@@ -15,33 +15,5 @@ if (index > 63)
 return (-1);
 }
 
-*n = *n + _pow(2, index);
-return (1);
-}
-
-/**
- * _pow - return the power of given num
- * @base: base
- * @pow: power
- * Return: power of given num
- */
-unsigned int _pow(int base, int pow)
-{
-
-if (pow == 0)
-{
-return (1);
-}
-
-if (pow == 1)
-{
-return (base);
-}
-
-while (--pow)
-{
-base *= base;
-}
-
-return (base);
+return(!!(*n |= 1L << index));
 }
