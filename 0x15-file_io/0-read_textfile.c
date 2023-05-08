@@ -41,5 +41,5 @@ return (0);
 
 free(text);
 close(fd);
-return (letters);
+return (w);
 }
