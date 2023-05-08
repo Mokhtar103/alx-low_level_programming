@@ -30,6 +30,7 @@ if (fd == -1)
 {
 return (0);
 }
+letters = read(fd, text, letters);
 w = write(STDOUT_FILENO, text, letters);
 
 if (w == -1)
