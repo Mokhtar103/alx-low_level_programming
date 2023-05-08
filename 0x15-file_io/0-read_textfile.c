@@ -10,7 +10,7 @@
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 char *text;
-int fd, w;
+int fd, w, l;
 
 if (filename == NULL)
 {
@@ -30,14 +30,16 @@ if (fd == -1)
 {
 return (0);
 }
-letters = read(fd, text, letters);
-w = write(STDOUT_FILENO, text, letters);
 
-if (w == -1)
+l = read(fd, text, letters);
+w = write(STDOUT_FILENO, text, l);
+
+if (w == -1 || l == -1)
 {
 return (0);
 }
-close(fd);
+
 free(text);
+close(fd);
 return (letters);
 }
