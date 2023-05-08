@@ -18,18 +18,21 @@ return (0);
 }
 
 text = malloc(sizeof(char) * letters);
+
 if (text == NULL)
 {
 return (0);
 }
+
 fd = open(filename, O_RDONLY);
+
 if (fd == -1)
 {
 return (0);
 }
 w = write(STDOUT_FILENO, text, letters);
 
-if (written == -1)
+if (w == -1)
 {
 return (0);
 }
