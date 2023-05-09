@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdlib.h>
 /**
  * create_file - creates a file
  * @filename: the name of the file
@@ -28,7 +28,7 @@ w = write(fp, text_content, len);
 
 if (fp == -1 || w == -1)
 {
-return (NULL);
+return (-1);
 }
 
 close(fp);
